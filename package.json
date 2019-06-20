@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "load-next": "artillery quick -r 200 -d 0 http://localhost:3000",
-    "load-next-ioblock": "artillery quick -r 10 -d 0 http://localhost:3000/ioblock"
+    "load-next": "artillery run artillery/next.yml",
+    "load-next-ioblock": "artillery run artillery/next-ioblock.yml"
   },
   "keywords": [],
   "author": "",
