@@ -1,0 +1,16 @@
+{
+  "name": "workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "load-next": "artillery quick -r 200 -d 0 http://localhost:3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "artillery": "^1.6.0-28",
+    "express": "^4.17.1"
+  }
+}
