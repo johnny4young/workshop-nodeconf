@@ -25,6 +25,11 @@ ExpressJS
 		http://localhost:3001 es un hola mundo
 		http://localhost:3001/load  carga data en MongoDB
 		http://localhost:3001/carts/<id> retorna el precio total del carrito, basado en su ID
+	ahora vamos a hacer profiling
+	
+	npm run dev-nsolid, sólo eso...guao!!!!!
+	ir a la consola http://localhost:6753
+	
 
 NextJS
 	ir dentro de la carpeta /next: cd next
