@@ -6,6 +6,7 @@
   "scripts": {
     "load-next": "artillery run artillery/next.yml",
     "load-next-ioblock": "artillery run artillery/next-ioblock.yml",
+    "load-express": "artillery run artillery/express.yml",
     "init-mongodb": "docker run --name mongo-workshop -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=mongoadmin -e MONGO_INITDB_ROOT_PASSWORD=secret -d mongo",
     "start-mongodb": "docker start mongo-workshop",
     "stop-mongodb": "docker stop mongo-workshop",

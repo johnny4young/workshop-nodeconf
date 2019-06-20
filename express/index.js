@@ -65,7 +65,7 @@ app.get('/carts/:id', async function getCartsById(req, res, next) {
 
 		const db = client.db('workshop');
 		const collection = db.collection('carts');
-		const cart = parseInt(req.paramw.id);
+		const cart = parseInt(req.params.id);
 
     collection.find({ cart }).toArray((err, results) => {
 
