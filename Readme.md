@@ -9,13 +9,20 @@ npm install artillery -g
 Herramientas utilizadas
 
 ExpressJS
-	TODO
-NextJS
-	ir dentro de la carpeta /next
+	ir dentro de la carpeta /express: cd express
 	npm install
 	npm run dev
-	hay dos tipo de de paginas
-		una con localhost:3000 y localhost:300/ioblock
+	hay varias rutas
+		http://localhost:3001
+
+NextJS
+	ir dentro de la carpeta /next: cd next
+	npm install
+	npm run dev
+	hay dos tipo de páginas
+		una con http://localhost:3000 y http://localhost:300/ioblock
 
 Artillery https://artillery.io/
-	creado el load test por npm, tarea: agregarlo como escenarios por ser más descriptivos
+	los escenesarios de carga son creado en la carpeta artillery.
+	- next.yml
+	- -next-ioblock.yml
