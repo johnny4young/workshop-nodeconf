@@ -1,9 +1,0 @@
-config:
-  target: 'http://localhost:3001'
-  phases:
-    - duration: 5
-      arrivalCount: 10
-scenarios:
-  - flow:
-    - get:
-        url: "/carts/11"
