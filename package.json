@@ -4,15 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "load-next": "artillery run artillery/next.yml",
-    "load-next-ioblock": "artillery run artillery/next-ioblock.yml",
     "load-express": "artillery run artillery/express.yml",
     "init-mongodb": "docker run --name mongo-workshop -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=mongoadmin -e MONGO_INITDB_ROOT_PASSWORD=secret -d mongo",
     "start-mongodb": "docker start mongo-workshop",
     "stop-mongodb": "docker stop mongo-workshop",
-    "init-nsolid": "",
-    "start-nsolid": "",
-    "stop-nsolid": ""
+    "docker-nsolid": "docker run -d -p 9001-9003:9001-9003 -p 6743:6753 -v /path/to/persistent/console:/var/lib/nsolid/console --name console --network docker_nsolid nodesource/nsolid-console"
   },
   "keywords": [],
   "author": "",

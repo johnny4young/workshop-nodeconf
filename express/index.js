@@ -79,10 +79,6 @@ app.get('/carts/:id', async function getCartsById(req, res, next) {
 
 });
 
-app.get('/usersoptimized', function (req, res) {
-	res.send('users optimized');
-});
-
 app.listen(port, function init() {
 	console.log(`app listening on port ${port}!`);
 });
